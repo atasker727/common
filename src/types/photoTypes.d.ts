@@ -53,3 +53,12 @@ export interface MarsPhoto extends PhotoGeneric {
 }
 
 export type ALLOWED_PHOTO_TYPES = "MarsPhotos" | "POTD";
+
+export type ALLOWED_CAMERA_TYPES =
+  | "FHAZ"
+  | "RHAZ"
+  | "MAST"
+  | "CHEMCAM"
+  | "MAHLI"
+  | "MARDI"
+  | "NAVCAM";
